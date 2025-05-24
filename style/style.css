@@ -1,0 +1,41 @@
+body {
+  background-color: #1f1f1f;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background-color: #151717;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav_links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav_links a {
+  color: white;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+.img_nav {
+  width: 100px;
+  height: 100%;
+}
+
+.slide {
+  width: 100%;
+  height: auto;
+}
+
+.img_nav_lua {
+  position: fixed;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+}
