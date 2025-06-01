@@ -29,6 +29,7 @@ body {
 }
 
 .slide {
+  margin-top: 100px;
   width: 100%;
   height: auto;
 }
@@ -43,8 +44,10 @@ body {
 #sec_sobre {
   display: grid;
   justify-content: center;
-  gap: 10px;
-  padding: 100px;
+  gap: 20px;
+  min-height: 30vh;
+  background-color: #2E3030;
+  padding: 50px;
 }
 
 #sec_sobre_h1 {
@@ -54,13 +57,52 @@ body {
   font-size: 30px;
 }
 
-.container__cards__sobre{
+.container__cards__sobre {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
+  gap: 10%;
 }
 
-.card__sobre{
-  max-width: 300px;
+.card__sobre {
+  width: 100%;
   height: auto;
   text-align: center;
+  background-color: #1e9599;
+  font-family: "Alexandria", sans-serif;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.card__sobre__texto {
+}
+
+.container_geral {
+  display: grid;
+  gap: 100px;
+}
+
+#sec_solucoes {
+  text-align: center;
+  color: white;
+  font-family: "Alexandria", sans-serif;
+  font-size: 30px;
+  background-color: #2E3030;
+}
+
+
+#sec_contato{
+  min-height: 30vh;
+  text-align: center;
+  color: white;
+  font-family: "Alexandria", sans-serif;
+  font-size: 30px;
+  background-color: #2E3030;
+}
+
+.footer{
+  margin-top: 30px;
+  background-color: #151717;
+  color: white;
+  font-family: "Alexandria", sans-serif;
 }
