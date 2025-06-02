@@ -97,7 +97,75 @@ body {
   color: white;
   font-family: "Alexandria", sans-serif;
   font-size: 30px;
-  background-color: #2E3030;
+  padding: 30px 10px 50px 10px;
+ background-color: #2E3030;
+}
+
+#sec_contato h1{
+  margin-bottom: 50px;
+}
+
+.content__contato{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+
+
+
+.form__contato{
+  padding: 30px;
+  min-width: 300px;
+  background-color: #151717;
+  border-radius: 30px;
+}
+
+.container__input{
+  display: grid;
+  text-align: left;
+  width: 100%;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.input__form1{
+  width: 100%;
+  height: 50px;
+  background-color: #404040;
+  border-radius: 15px;
+  border: 0px transparent;
+  color: white;
+  font-family: "Alexandria", sans-serif;
+  padding: 0px 0px 0px 10px;
+  
+}
+.input__form2{
+  width: 96%;
+  height: 110px;
+  background-color: #404040;
+  border-radius: 15px;
+  border: 0px transparent;
+  color: white;
+  font-family: "Alexandria", sans-serif;
+  padding: 10px;
+  resize: none;
+  overflow: hidden;
+}
+.form__button{
+  background-color: #1E9599;
+  width: 100%;
+  height: 20%;
+  cursor: pointer;
+  border: 0px transparent;
+  border-radius: 30px;
+  color: white;
+  font-family: "Alexandria", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.iframe{
+  border-radius: 30px;
 }
 
 .footer{
