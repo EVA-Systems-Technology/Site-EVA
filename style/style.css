@@ -10,6 +10,7 @@ body {
   display: flex;
   align-items: center;
   gap: 20px;
+  padding: 0px 0px 0px 20px;
 }
 
 .nav_links {
@@ -20,7 +21,7 @@ body {
 .nav_links a {
   color: white;
   text-decoration: none;
-  font-family: monospace;
+  font-family: "Alexandria", sans-serif;
 }
 
 .img_nav {
@@ -66,15 +67,28 @@ body {
 .card__sobre {
   width: 100%;
   height: auto;
-  text-align: center;
+  text-align: left;
   background-color: #1e9599;
   font-family: "Alexandria", sans-serif;
   color: white;
   border-radius: 20px;
-  padding: 10px;
+  padding: 0px 30px 30px 30px;  
 }
 
 .card__sobre__texto {
+}
+
+.triangle{
+  width: 0;
+  height: 0;
+  border: 15vh solid transparent;
+  border-bottom: 0;
+  border-top: 200px solid #1B8589;
+
+}
+
+.letra__Grande{
+  font-size: 40px;
 }
 
 .container_geral {
