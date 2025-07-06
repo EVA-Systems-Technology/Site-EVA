@@ -47,7 +47,7 @@ body {
   justify-content: center;
   gap: 20px;
   min-height: 30vh;
-  background-color: #2E3030;
+  background-color: #2e3030;
   padding: 50px;
 }
 
@@ -72,22 +72,31 @@ body {
   font-family: "Alexandria", sans-serif;
   color: white;
   border-radius: 20px;
-  padding: 0px 30px 30px 30px;  
+  padding: 0px 30px 30px 30px;
+}
+
+.card_h2{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card_h3{
+  font-size: 16.5px;
+  text-align: justify;
 }
 
 .card__sobre__texto {
 }
 
-.triangle{
+.triangle {
   width: 0;
   height: 0;
   border: 15vh solid transparent;
   border-bottom: 0;
-  border-top: 200px solid #1B8589;
-
+  border-top: 200px solid #1b8589;
 }
 
-.letra__Grande{
+.letra__Grande {
   font-size: 40px;
 }
 
@@ -101,48 +110,47 @@ body {
   color: white;
   font-family: "Alexandria", sans-serif;
   font-size: 30px;
-  background-color: #2E3030;
+  background-color: #2e3030;
 }
 
-
-#sec_contato{
+#sec_contato {
   min-height: 30vh;
   text-align: center;
   color: white;
   font-family: "Alexandria", sans-serif;
   font-size: 30px;
   padding: 30px 10px 50px 10px;
- background-color: #2E3030;
+  background-color: #2e3030;
 }
 
-#sec_contato h1{
+#sec_contato h1 {
   margin-bottom: 50px;
 }
 
-.content__contato{
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    
+.content__contato {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
 }
 
-
-
-.form__contato{
+.form__contato {
   padding: 30px;
   min-width: 300px;
   background-color: #151717;
   border-radius: 30px;
 }
 
-.container__input{
+.container__input {
   display: grid;
   text-align: left;
   width: 100%;
   gap: 10px;
   margin-bottom: 20px;
 }
-.input__form1{
+.container__input label{
+  font-size: 20px;
+}
+.input__form1 {
   width: 100%;
   height: 50px;
   background-color: #404040;
@@ -151,9 +159,8 @@ body {
   color: white;
   font-family: "Alexandria", sans-serif;
   padding: 0px 0px 0px 10px;
-  
 }
-.input__form2{
+.input__form2 {
   width: 96%;
   height: 110px;
   background-color: #404040;
@@ -165,8 +172,8 @@ body {
   resize: none;
   overflow: hidden;
 }
-.form__button{
-  background-color: #1E9599;
+.form__button {
+  background-color: #1e9599;
   width: 100%;
   height: 20%;
   cursor: pointer;
@@ -178,13 +185,43 @@ body {
   margin-top: 10px;
 }
 
-.iframe{
+.iframe {
   border-radius: 30px;
 }
 
-.footer{
+.footer {
   margin-top: 30px;
   background-color: #151717;
   color: white;
   font-family: "Alexandria", sans-serif;
+}
+
+.container__footer {
+  padding: 20px 10px 10px 20px;
+}
+.container__bottom__footer {
+  padding: 10px 10px 20px 20px;
+  display: flex;
+}
+
+.container__bottom__footer__images {
+  display: flex;
+  position: absolute;
+  gap: 10px;
+  right: 20px;
+}
+
+.footer_h1 {
+  font-size: 30px;
+  padding: 10px 0px 5px 0px;
+}
+
+.footer_h2 {
+  font-size: 20px;
+  padding: 10px 0px 0px 0px;
+}
+
+.img__footer {
+  width: 30px;
+  height: 30px;
 }
