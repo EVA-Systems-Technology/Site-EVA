@@ -11,7 +11,7 @@ body {
   align-items: center;
   gap: 20px;
   padding: 0px 0px 0px 20px;
-  z-index: 1;
+  z-index: 3;
 }
 
 .nav_links {
@@ -130,17 +130,26 @@ body {
 }
 
 .carrosel__viewport{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 10px;
-    width: fit-content;
-    transition: transform 0.4s ease-in-out;
-    will-change: transform;
+  overflow: hidden;
+  width: 100vw;
 }
 
+.carrosel__view {
+  display: flex;
+  transition: margin-left 0.5s ease;
+  width: 300vw;
+}
+
+
+.carrosel__slide1{
+  height: 700px;
+  width: 100vw;
+  background-color: red;
+  z-index: 0;
+  margin-left: 150px;
+  margin-right: 240px;
+  margin-top: 20px;
+}
 
 
 
@@ -157,7 +166,7 @@ body {
   cursor: pointer;
   color: white;
   font-size: 45px;
-  z-index: 0;
+  z-index: 1;
 }
 
 .button_right{
@@ -173,7 +182,7 @@ body {
   cursor: pointer;
   color: white;
   font-size: 45px;
-  z-index: 0;
+  z-index: 1;
 }
 
 
