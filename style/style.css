@@ -11,6 +11,7 @@ body {
   align-items: center;
   gap: 20px;
   padding: 0px 0px 0px 20px;
+  z-index: 1;
 }
 
 .nav_links {
@@ -61,11 +62,13 @@ body {
 .container__cards__sobre {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   gap: 10%;
 }
 
 .card__sobre {
-  width: 100%;
+  flex: 1 1 10px; 
+  max-width: 32%;
   height: auto;
   text-align: left;
   background-color: #1e9599;
@@ -73,6 +76,7 @@ body {
   color: white;
   border-radius: 20px;
   padding: 0px 30px 30px 30px;
+  box-sizing: border-box;
 }
 
 .card_h2{
@@ -94,6 +98,7 @@ body {
   border: 15vh solid transparent;
   border-bottom: 0;
   border-top: 200px solid #1b8589;
+  margin: 0 auto 20px auto;
 }
 
 .letra__Grande {
@@ -111,7 +116,67 @@ body {
   font-family: "Alexandria", sans-serif;
   font-size: 30px;
   background-color: #2e3030;
+  padding: 30px;
+  min-height: 700px;
+  overflow: hidden;
 }
+
+
+.container__carrosel{
+    position: relative; /* Por causa dos botões absolutos */
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.carrosel__viewport{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    width: fit-content;
+    transition: transform 0.4s ease-in-out;
+    will-change: transform;
+}
+
+
+
+
+.button_left{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 20px;
+  top: 40%;
+  border-radius: 100%;
+  background-color: #000000;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 45px;
+  z-index: 0;
+}
+
+.button_right{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 20px;
+  top: 40%;
+  border-radius: 100%;
+  background-color: #000000;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 45px;
+  z-index: 0;
+}
+
+
 
 #sec_contato {
   min-height: 30vh;
