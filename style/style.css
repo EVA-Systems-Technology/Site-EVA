@@ -2,6 +2,11 @@ body {
   background-color: #1f1f1f;
 }
 
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -146,9 +151,57 @@ body {
   width: 100vw;
   background-color: red;
   z-index: 0;
+  display: flex;
+  justify-content: space-around;
   margin-left: 150px;
   margin-right: 240px;
   margin-top: 20px;
+}
+
+.carrosel_slide1__containerTec{
+  width: 30%;
+  height: 100%;
+  background-color: black;
+  display: grid;
+}
+
+.carrosel_slide1__containerImg{
+  width: 60%;
+  height: 100%;
+  background-color: beige;
+  overflow: hidden;
+}
+
+.carrosel_slide1__containerImg img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.containerTec__Empresa{
+  display: flex;
+  padding: 30px;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerTec__Empresa img{
+  width: 30%;
+  height: 40%;
+  
+}
+
+.containerTec__Tecnologias__images{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.containerTec__Tecnologias__images img{
+  width: 20%;
+  height: 100%;
 }
 
 
@@ -184,6 +237,7 @@ body {
   font-size: 45px;
   z-index: 1;
 }
+
 
 
 
