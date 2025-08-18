@@ -316,25 +316,25 @@ html {
 }
 
 .footer {
-  margin-top: 30px;
+  padding: 10%;
   background-color: #151717;
   color: white;
   font-family: "Alexandria", sans-serif;
 }
 
 .container__footer {
-  padding: 20px 10px 10px 20px;
+  padding: 20px;
 }
+
 .container__bottom__footer {
   padding: 10px 10px 20px 20px;
+  justify-content: space-between;
   display: flex;
 }
 
 .container__bottom__footer__images {
   display: flex;
-  position: absolute;
   gap: 10px;
-  right: 20px;
 }
 
 .footer_h1 {
