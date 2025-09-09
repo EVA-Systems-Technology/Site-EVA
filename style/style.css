@@ -245,6 +245,7 @@ html {
   font-size: 30px;
   padding: 30px 10px 50px 10px;
   background-color: #2e3030;
+  padding: 10% 15% 10% 10%;
 }
 
 #sec_contato h1 {
@@ -258,11 +259,20 @@ html {
   flex-wrap: wrap;
 }
 
+.container__contato{
+  margin: 0 auto;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 40px;
+}
+
 .form__contato {
   padding: 30px;
   min-width: 300px;
-  background-color: #151717;
-  border-radius: 30px;
 }
 
 .container__input {
@@ -276,26 +286,24 @@ html {
   font-size: 20px;
 }
 .input__form1 {
-  width: 100%;
+  color: black;
   height: 50px;
-  background-color: #404040;
-  border-radius: 15px;
+  background-color: #CCDADA;
   border: 0px transparent;
-  color: white;
   font-family: "Alexandria", sans-serif;
   padding: 0px 0px 0px 10px;
+  border-left: 4px solid #1BA6A3;
 }
 .input__form2 {
-  width: 96%;
+  color: black;
   height: 110px;
-  background-color: #404040;
-  border-radius: 15px;
+  background-color: #CCDADA;
   border: 0px transparent;
-  color: white;
   font-family: "Alexandria", sans-serif;
   padding: 10px;
   resize: none;
   overflow: hidden;
+  border-left: 4px solid #1BA6A3;
 }
 .form__button {
   background-color: #1e9599;
@@ -303,7 +311,6 @@ html {
   height: 20%;
   cursor: pointer;
   border: 0px transparent;
-  border-radius: 30px;
   color: white;
   font-family: "Alexandria", sans-serif;
   font-size: 20px;
@@ -311,23 +318,27 @@ html {
   margin-bottom: 30px;
 }
 
-.iframe {
-  border-radius: 30px;
-}
+
 
 .footer {
   padding: 10%;
   background-color: #151717;
   color: white;
   font-family: "Alexandria", sans-serif;
+  
 }
 
 .container__footer {
-  padding: 20px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .container__bottom__footer {
-  padding: 10px 10px 20px 20px;
+  padding: 15px 10px 20px 20px;
   justify-content: space-between;
   display: flex;
 }
@@ -351,3 +362,5 @@ html {
   width: 30px;
   height: 30px;
 }
+
+
