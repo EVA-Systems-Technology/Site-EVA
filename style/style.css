@@ -218,13 +218,14 @@ html {
   color: white;
   font-size: 45px;
   z-index: 1;
+  border-radius: 60px 0px 0px 60px;
 }
 
 .button_right {
   width: 100px;
   height: 100px;
   position: absolute;
-  right: 50px;
+  right: 63px;
   top: 40%;
   background-color: #000000;
   border: none;
@@ -233,6 +234,7 @@ html {
   color: white;
   font-size: 45px;
   z-index: 1;
+    border-radius: 0px 60px 60px 0px;
 }
 
 #sec_contato {
