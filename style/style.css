@@ -1,6 +1,7 @@
 body{
   margin: 0;
   height: 100%;
+  background-color: #D3EBF1;
 }
 
 
@@ -120,6 +121,63 @@ html {
 .container_geral {
   display: grid;
   gap: 100px;
+}
+
+#sec_diferencial {
+  min-height: 700px;
+  font-size: 30px;
+  padding: 200px;
+  font-family: "Alexandria", sans-serif;
+  justify-content: center;
+  display: grid;
+}
+
+.container__diferencial{
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  border-radius: 15px; 
+  padding: 50px;
+  text-align: center;
+  width: 2000px;
+}
+
+.diferenciais__container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px
+
+}
+.diferencial__1{
+  width: 33%;
+  display: grid;
+  justify-content: center;
+}
+
+.diferencial__1 img{
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.diferencial__2{
+  width: 33%;
+  display: grid;
+  justify-content: center;
+}
+
+.diferencial__2 img{
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+.diferencial__titulo{
+  color: #1D9599;
+  font-family: "Alexandria", sans-serif;
 }
 
 #sec_solucoes {
