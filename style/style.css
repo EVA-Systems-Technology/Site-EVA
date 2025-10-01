@@ -1,9 +1,9 @@
-body{
+body {
   background-image: url('/img/fundo.png');
   background-color: #D3EBF1;
-  background-blend-mode: overlay; 
+  background-blend-mode: overlay;
   margin: 0;
-  height: 100%;
+  min-height: 100%;
 }
 
 
@@ -39,7 +39,8 @@ html {
   width: 100px;
   height: 100%;
 }
-.img_principal{
+
+.img_principal {
   object-fit: fill;
   width: 100%;
   height: 100%;
@@ -64,41 +65,43 @@ html {
   justify-content: center;
   gap: 20px;
   min-height: 30vh;
-  padding: 50px;
-  
-}
-.container__cards__sobre{
-  display: grid;
-  overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.10); 
-  backdrop-filter: blur(10px); 
-  border: 1px solid rgba(255, 255, 255, 0.2); 
-  border-radius: 15px; 
-  padding: 50px;
-  font-size: 50px;
-  
+  padding: 0% 10% 0% 10%;
+
 }
 
-.sobre__superior{
+.container__cards__sobre {
+  display: grid;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 50px;
+  font-size: 50px;
+
+}
+
+.sobre__superior {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   padding: 20px;
 }
 
-.sobre__enunciado{
+.sobre__enunciado {
   line-height: 1.6;
   text-align: center;
   color: black;
   font-family: "Alexandria", sans-serif;
 }
-.sobre__img{
+
+.sobre__img {
   width: 50%;
 }
 
@@ -157,57 +160,59 @@ html {
 #sec_diferencial {
   min-height: 700px;
   font-size: 30px;
-  padding: 200px;
+  padding: 10%;
   font-family: "Alexandria", sans-serif;
   justify-content: center;
   display: grid;
 }
 
-.container__diferencial{
+.container__diferencial {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.15); 
-  backdrop-filter: blur(10px); 
-  border: 1px solid rgba(255, 255, 255, 0.2); 
-  border-radius: 15px; 
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
   padding: 50px;
   text-align: center;
   width: 100%;
   margin: 0 auto;
 }
 
-.diferenciais__container{
-  display:flex;
+.diferenciais__container {
+  display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px
+  gap: 40px;
 
 }
-.diferencial__1{
+
+.diferencial__1 {
   width: 33%;
   display: grid;
   justify-content: center;
 }
 
-.diferencial__1 img{
+.diferencial__1 img {
   width: 300px;
   height: 300px;
   display: block;
   margin: 0 auto;
 }
 
-.diferencial__2{
+.diferencial__2 {
   width: 33%;
   display: grid;
   justify-content: center;
 }
 
-.diferencial__2 img{
+.diferencial__2 img {
   width: 400px;
   height: 300px;
   display: block;
   margin: 0 auto;
 }
-.diferencial__titulo{
+
+.diferencial__titulo {
   color: #1D9599;
   font-family: "Alexandria", sans-serif;
 }
@@ -223,17 +228,18 @@ html {
 }
 
 .container__carrosel {
-  position: relative; /* Por causa dos botões absolutos */
+  position: relative;
+  /* Por causa dos botões absolutos */
   overflow: hidden;
   padding: 0px 100px 0px 100px;
 }
 
 .carrosel__viewport {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.15); 
-  backdrop-filter: blur(10px); 
-  border: 1px solid rgba(255, 255, 255, 0.2); 
-  border-radius: 15px; 
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
   padding: 50px;
 }
 
@@ -244,7 +250,7 @@ html {
 }
 
 .carrosel__slide1 {
-  height: fit-content;
+  height: auto;
   width: 60vw;
   z-index: 0;
   display: flex;
@@ -257,21 +263,21 @@ html {
 }
 
 #solucoes__h1 {
-  text-transform: uppercase; 
-  letter-spacing: 2px;       
-  font-size: 32px;          
-  font-weight: 600;        
-  margin-bottom: 40px;   
-  margin-top: 0;            
-  text-align: center;     
-  color: black;   
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  margin-top: 0;
+  text-align: center;
+  color: black;
 }
 
 .carrosel_slide1__containerTec {
   min-width: 300px;
   max-width: 400px;
   min-height: 400px;
-  max-height: 600px;;
+  max-height: 600px;
   background-color: #151717;
   display: grid;
   border-radius: 30px;
@@ -322,7 +328,6 @@ html {
   position: absolute;
   left: 0px;
   top: 40%;
-  background-color: #000000;
   border: none;
   outline: 0;
   cursor: pointer;
@@ -330,9 +335,9 @@ html {
   font-size: 45px;
   z-index: 1;
   border-radius: 60px 0px 0px 60px;
-  background-color: rgba(255, 255, 255, 0.15); 
-  backdrop-filter: blur(10px); 
-  border: 1px solid rgba(255, 255, 255, 0.2); 
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .button_right {
@@ -341,7 +346,6 @@ html {
   position: absolute;
   right: 0px;
   top: 40%;
-  background-color: #000000;
   border: none;
   outline: 0;
   cursor: pointer;
@@ -349,9 +353,9 @@ html {
   font-size: 45px;
   z-index: 1;
   border-radius: 0px 60px 60px 0px;
-  background-color: rgba(255, 255, 255, 0.15); 
-  backdrop-filter: blur(10px); 
-  border: 1px solid rgba(255, 255, 255, 0.2); 
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 #sec_contato {
@@ -360,8 +364,7 @@ html {
   color: black;
   font-family: "Alexandria", sans-serif;
   font-size: 30px;
-  padding: 30px 10px 50px 10px;
-  padding: 10% 15% 10% 10%;
+  padding: 0% 10% 0% 10%;
 }
 
 #sec_contato h1 {
@@ -375,7 +378,7 @@ html {
   flex-wrap: wrap;
 }
 
-.container__contato{
+.container__contato {
   margin: 0 auto;
   width: 100%;
   background: rgba(255, 255, 255, 0.08);
@@ -398,9 +401,11 @@ html {
   gap: 10px;
   margin-bottom: 20px;
 }
+
 .container__input label {
   font-size: 20px;
 }
+
 .input__form1 {
   color: black;
   height: 50px;
@@ -410,6 +415,7 @@ html {
   padding: 0px 0px 0px 10px;
   border-left: 4px solid #1BA6A3;
 }
+
 .input__form2 {
   color: black;
   height: 110px;
@@ -421,6 +427,7 @@ html {
   overflow: hidden;
   border-left: 4px solid #1BA6A3;
 }
+
 .form__button {
   background-color: #1e9599;
   width: 100%;
@@ -440,7 +447,7 @@ html {
   padding: 10%;
   color: black;
   font-family: "Alexandria", sans-serif;
-  
+
 }
 
 .container__footer {
@@ -477,5 +484,3 @@ html {
   width: 30px;
   height: 30px;
 }
-
-
