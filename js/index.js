@@ -5,14 +5,14 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("left").onclick = function () {
     if (margem > 0) {
       margem--;
-      view.style.marginLeft = `-${margem * 100}vw`;
+      view.style.marginLeft = `-${margem * 70}vw`;
     }
   };
 
   document.getElementById("right").onclick = function () {
     if (margem < 2) {
       margem++;
-      view.style.marginLeft = `-${margem * 100}vw`;
+      view.style.marginLeft = `-${margem * 80}vw`;
     }
   };
 
