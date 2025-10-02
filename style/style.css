@@ -102,7 +102,14 @@ html {
 }
 
 .sobre__img {
-  width: 50%;
+  width: 100%;
+  max-width: 400px;
+}
+
+.sobre__img img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 #sec_sobre_h1 {
@@ -113,6 +120,10 @@ html {
   margin-bottom: 30px;
 }
 
+.sobre__h2 {
+  font-size: 1vw;
+
+}
 
 .card__sobre {
   flex: 1 1 10px;
@@ -183,24 +194,27 @@ html {
   justify-content: center;
   align-items: center;
   gap: 40px;
-
+  flex-wrap: wrap;
 }
 
 .diferencial__1 {
-  width: 33%;
+  flex: 1 1 300px;
+  width: 100%;
   display: grid;
   justify-content: center;
 }
 
 .diferencial__1 img {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
   display: block;
   margin: 0 auto;
 }
 
 .diferencial__2 {
-  width: 33%;
+  flex: 1 1 300px;
+  width: 100%;
   display: grid;
   justify-content: center;
 }
@@ -222,8 +236,7 @@ html {
   color: white;
   font-family: "Alexandria", sans-serif;
   font-size: 30px;
-  padding: 200px;
-  min-height: 700px;
+  padding: 3%;
   overflow: hidden;
 }
 
