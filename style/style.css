@@ -102,7 +102,14 @@ html {
 }
 
 .sobre__img {
-  width: 50%;
+  width: 100%;
+  max-width: 400px;
+}
+
+.sobre__img img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 #sec_sobre_h1 {
@@ -113,19 +120,15 @@ html {
   margin-bottom: 30px;
 }
 
-.container__dinamico__geral{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  overflow: visible;
-  margin-top: 30px;
-}
 
-.card{
-  width: 100%;
-  height: 500px;
-  background: linear-gradient(135deg, #1b4d4f, #a3c3c7);
+.card__sobre {
+  flex: 1 1 10px;
+  max-width: 500px;
+  min-width: 300px;
+  height: auto;
+  text-align: left;
+  background-color: #1e9599;
+  font-family: "Alexandria", sans-serif;
   color: white;
   padding: 40px 30px;
   position: relative;
@@ -193,24 +196,27 @@ html {
   justify-content: center;
   align-items: center;
   gap: 40px;
-
+  flex-wrap: wrap;
 }
 
 .diferencial__1 {
-  width: 33%;
+  flex: 1 1 300px;
+  width: 100%;
   display: grid;
   justify-content: center;
 }
 
 .diferencial__1 img {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
   display: block;
   margin: 0 auto;
 }
 
 .diferencial__2 {
-  width: 33%;
+  flex: 1 1 300px;
+  width: 100%;
   display: grid;
   justify-content: center;
 }
@@ -232,8 +238,7 @@ html {
   color: white;
   font-family: "Alexandria", sans-serif;
   font-size: 30px;
-  padding: 200px;
-  min-height: 700px;
+  padding: 3%;
   overflow: hidden;
 }
 
