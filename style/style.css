@@ -130,45 +130,39 @@ html {
   background-color: #1e9599;
   font-family: "Alexandria", sans-serif;
   color: white;
-  padding: 40px 30px;
-  position: relative;
-  cursor: pointer;
-  transition: all 0.4s ease-in-out;
+  border-radius: 20px;
+  padding: 0px 30px 30px 30px;
+  box-sizing: border-box;
 }
 
-.card h2{
-  font-size: 50px;
+.card_h2 {
+  font-size: 20px;
   margin-bottom: 10px;
-  font-family: "Alexandria", sans-serif;
-} 
-
-.cardp{
-  font-size: 28px;
-  margin-bottom: 10px;
-  font-family: "Alexandria", sans-serif;
-  opacity: 0;
-} 
-
-.card.active {
-  width: 300%;
-  min-width: 500px;
-  margin-left: 0;
-  z-index: 3;
-  background: linear-gradient(135deg, #1b4d4f, #5fa6ad);
 }
 
-.card.active .cardp{
-  font-size: 38px;
-  margin-bottom: 10px;
-  font-family: "Alexandria", sans-serif;
-  opacity: 1;
-} 
+.card_h3 {
+  font-size: 16.5px;
+  text-align: justify;
+}
 
-.card.active .card_h2{
-  font-size: 68px;
-  margin-bottom: 10px;
-  font-family: "Alexandria", sans-serif;
-} 
+
+.triangle {
+  width: 0;
+  height: 0;
+  border: 15vh solid transparent;
+  border-bottom: 0;
+  border-top: 200px solid #1b8589;
+  margin: 0 auto 20px auto;
+}
+
+.letra__Grande {
+  font-size: 40px;
+}
+
+.container_geral {
+  display: grid;
+  gap: 100px;
+}
 
 #sec_diferencial {
   min-height: 700px;
@@ -244,6 +238,7 @@ html {
 
 .container__carrosel {
   position: relative;
+  /* Por causa dos botões absolutos */
   overflow: hidden;
   padding: 0px 100px 0px 100px;
 }
