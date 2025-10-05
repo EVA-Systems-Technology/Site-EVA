@@ -3,7 +3,13 @@ body {
   background-color: #D3EBF1;
   background-blend-mode: overlay;
   margin: 0;
-  min-height: 100%;
+  
+  /*  background: linear-gradient(to right, 
+            #b0c4c9 0%,   
+              #ffffff 25%, 
+              #ffffff 75%,  
+              #b0c4c9 100%  
+  ); VERIFICAR COM O CIDADE COMO EU MESCLO O GRADIENTE COM A IMAGEM*/
 }
 
 
