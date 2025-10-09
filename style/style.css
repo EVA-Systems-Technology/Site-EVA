@@ -12,6 +12,14 @@ body {
   ); VERIFICAR COM O CIDADE COMO EU MESCLO O GRADIENTE COM A IMAGEM*/
 }
 
+.container__geral{
+  background: linear-gradient(to right, 
+            #b0c4c9 0%,   
+              #ffffff00 25%, 
+              #ffffff00 75%,  
+              #b0c4c9 100%  );
+
+}
 
 html {
   scroll-behavior: smooth;
@@ -197,7 +205,6 @@ html {
   border-radius: 15px;
   padding: 50px;
   text-align: center;
-  width: 100%;
   margin: 0 auto;
 }
 
@@ -248,14 +255,12 @@ html {
   color: white;
   font-family: "Alexandria", sans-serif;
   font-size: 30px;
-  padding: 3%;
+  padding: 10%;
   overflow: hidden;
 }
 
 .container__carrosel {
   position: relative;
-  overflow: hidden;
-  padding: 0px 100px 0px 100px;
 }
 
 .carrosel__viewport {
@@ -274,14 +279,11 @@ html {
 }
 
 .carrosel__slide1 {
-  height: auto;
-  width: 60vw;
+  width: 50%;
   z-index: 0;
   display: flex;
   justify-content: space-around;
-  margin-left: 150px;
   margin-right: 240px;
-  margin-top: 20px;
   flex-wrap: wrap;
   gap: 50px;
 }
@@ -350,7 +352,7 @@ html {
   width: 100px;
   height: 100px;
   position: absolute;
-  left: 0px;
+  left: -100px;
   top: 40%;
   border: none;
   outline: 0;
@@ -368,7 +370,7 @@ html {
   width: 100px;
   height: 100px;
   position: absolute;
-  right: 0px;
+  right: -100px;
   top: 40%;
   border: none;
   outline: 0;
@@ -404,7 +406,6 @@ html {
 
 .container__contato {
   margin: 0 auto;
-  width: 100%;
   background: rgba(255, 255, 255, 0.08);
   border-radius: 20px;
   backdrop-filter: blur(12px);
