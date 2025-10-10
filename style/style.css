@@ -66,6 +66,10 @@ html {
   height: auto;
 }
 
+#sec_banner_slider{
+  margin-bottom: 100px;
+}
+
 .img_nav_lua {
   position: fixed;
   right: 50px;
@@ -112,7 +116,13 @@ html {
   line-height: 1.6;
   text-align: center;
   color: black;
+}
+
+.h2__sobre{
   font-family: "Alexandria", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  text-align: left;
 }
 
 .sobre__img {
@@ -390,7 +400,7 @@ html {
   color: black;
   font-family: "Alexandria", sans-serif;
   font-size: 30px;
-  padding: 0% 10% 0% 10%;
+  padding: 07% 10% 0% 10%;
 }
 
 #sec_contato h1 {
