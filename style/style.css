@@ -285,7 +285,7 @@ html {
 .carrosel__view {
   display: flex;
   transition: margin-left 0.5s ease;
-  width: 220vw;
+  width: 260vw;
 }
 
 .carrosel__slide1 {
@@ -321,7 +321,6 @@ html {
 
 .carrosel_slide1__containerImg {
   width: 60%;
-  height: 80%;
   background-color: beige;
   overflow: hidden;
   border-radius: 30px;
@@ -343,8 +342,8 @@ html {
 }
 
 .containerTec__Empresa img {
-  width: 30%;
-  height: 40%;
+  width: 70px;
+  height: 70px;
 }
 
 .containerTec__Tecnologias__images {

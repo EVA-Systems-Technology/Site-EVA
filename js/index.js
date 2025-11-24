@@ -5,14 +5,14 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("left").onclick = function () {
     if (margem > 0) {
       margem--;
-      view.style.marginLeft = `-${margem * 70}vw`;
+      view.style.marginLeft = `-${margem * 85}vw`;
     }
   };
 
   document.getElementById("right").onclick = function () {
     if (margem < 2) {
       margem++;
-      view.style.marginLeft = `-${margem * 80}vw`;
+      view.style.marginLeft = `-${margem * 85}vw`;
     }
   };
 
@@ -24,21 +24,22 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
   
-  let theme = 0;
+  let theme = 1
 
   document.getElementById("icon__theme").onclick = function () {
     if (theme == 0) {
       theme = 1;
       document.getElementById("icon__theme").src = "img/sol.png";
-      document.body.style.backgroundColor = "#E8ECF0";
-      document.getElementById("slide").src = "img/Slide2.png";
-      document.getElementById("sec_sobre").style.backgroundColor = "#F5F5F7";
+      document.body.style.backgroundColor = "#D3EBF1";
+      document.getElementsByClassName("container__geral")[0].style.background = "linear-gradient(to right, #b0c4c9 0%, #ffffff00 25%, #ffffff00 75%,  #b0c4c9 100% )";
       document.getElementById("sec_sobre_h1").style.color = "black";
-      document.getElementById("sec_solucoes").style.backgroundColor = "#F5F5F7";
       document.getElementById("solucoes__h1").style.color = "black";
-      document.getElementById("sec_contato").style.backgroundColor = "#F5F5F7";
       document.getElementById("contato_h1").style.color = "black";
-      document.getElementById("footer").style.backgroundColor = "#F5F5F7";
+      document.getElementById("sec_sobre").style.color = "black";
+      document.getElementById("h2__sobre").style.color = "black";
+      document.getElementById("img_sobre").src = "img/LOGO EVA - 2 1.png"
+      document.getElementById("sec_diferencial").style.color = "black";
+      document.getElementById("sec_contato").style.color = "black";
       document
         .querySelectorAll(".footer_h1, .footer_h2, .footer_h3")
         .forEach((h1) => {
@@ -52,15 +53,17 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       theme = 0;
       document.getElementById("icon__theme").src = "img/lua.png";
-      document.body.style.backgroundColor = "#1F1F1F";
-      document.getElementById("slide").src = "img/Slide1.png";
-      document.getElementById("sec_sobre").style.backgroundColor = "#2E3030";
+      document.body.style.backgroundColor = "#000000fb";
+      document.getElementsByClassName("container__geral")[0].style.background = "linear-gradient(to right, #1e959934  0%, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0.8) 60%, #1e959934 100%)";
       document.getElementById("sec_sobre_h1").style.color = "white";
-      document.getElementById("sec_solucoes").style.backgroundColor = "#2E3030";
       document.getElementById("solucoes__h1").style.color = "white";
-      document.getElementById("sec_contato").style.backgroundColor = "#2E3030";
       document.getElementById("contato_h1").style.color = "white";
-      document.getElementById("footer").style.backgroundColor = "#2E3030";
+      document.getElementById("sec_sobre").style.color = "white";
+      document.getElementById("h2__sobre").style.color = "white";
+      document.getElementById("img_sobre").src = "img/LOGO EVA.png"
+      document.getElementById("sec_diferencial").style.color = "white";
+      document.getElementById("sec_solucoes").style.color = "white";
+      document.getElementById("sec_contato").style.color = "white";
       document
         .querySelectorAll(".footer_h1, .footer_h2, .footer_h3")
         .forEach((h1) => {
